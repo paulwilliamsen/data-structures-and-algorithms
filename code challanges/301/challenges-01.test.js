@@ -102,15 +102,6 @@ const removeWithAnon = (arr) => {
   return arr;
   };
 
-  const removeWithAnon = (arr) => {
-  
-    arr.forEach ((element, i, array) => {
-      removeOne(element, array);
-    
-    });
-    return arr;
-    };
-  
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
