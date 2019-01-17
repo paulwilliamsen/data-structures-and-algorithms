@@ -173,6 +173,7 @@ const extractStats = (arr) => {
     let name = val.stat.name;
     let total = val.effort + val.baseStat;
     return {name: name, total: total};
+    
   });
 
 };
